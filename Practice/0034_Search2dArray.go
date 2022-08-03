@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+	- Here we are searching an element in the 2D-Array
+*/
+
 func Search2dArray(arr [][]int, key int) (int, int) {
 	for outerIndex, innerArray := range arr {
 		for innerIndex, value := range innerArray {
