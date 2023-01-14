@@ -11,10 +11,15 @@ func main() {
 	fmt.Printf("Please enter something : ")
 	scanner.Scan()
 	var input string = scanner.Text()
-	fmt.Printf("You have typed %q\n", input)
+	fmt.Printf("You have typed %q\n\n", input)
 
 	// another way of taking inputs
-	fmt.Printf("Please enter some text:")
+	fmt.Printf("Please enter some text: ")
 	fmt.Scanf("%s", &input)
-	fmt.Printf("you have entered %q", input)
+	fmt.Printf("you have entered %q\n\n", input)
+
+	// one another way to take input
+	fmt.Print("Please enter something: ")
+	fmt.Scan(&input)
+	fmt.Printf("you have entered %q\n\n", input)
 }
