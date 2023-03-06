@@ -4,6 +4,7 @@
 - Strings are the sequence of the characters.
 - Strings are immutable.
 - Any characters in the string can accessed in the same way as in tuple
+- "\" can be used to escape most of special characters
 
 Syntax:
 
@@ -73,6 +74,7 @@ split([separator, maxsplit)	- this method will spilt the string based on the sep
 index(sub_str [, start[, end]])	- this method is same as find method, but here if the substring is not present then it throws error
 '''
 
+'''UNCOMMENTABLE BLOCK OF CODE
 s1 = "harshit kalavadia"
 
 print(len(s1))
@@ -82,5 +84,17 @@ print(s1.replace("t", "l"))
 print(s1.find("hi"))
 print(s1.split(" "))
 print(s1.index("k"))
+'''
+'''
+Formatting String: ----------------------------------------------------------------------------------------------
 
+Syntax:
+
+    print(f'{str1} some text {str2}')
+'''
+
+str1 = "harshit"
+str2 = "indian"
+
+print(f'{str1} is {str2}')
 
