@@ -10,10 +10,10 @@ func main() {
 
 	var complexNumber complex64 = 45 + 11.5i
 
-	stringText := "some text" /* string type */
+	stringText := `some 
+	text` /* string type */
 
 	var booleanValue = true /* bool type */
 
 	fmt.Println(number, floatNumber, complexNumber, stringText, booleanValue)
 }
-

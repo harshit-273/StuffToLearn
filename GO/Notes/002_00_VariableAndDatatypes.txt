@@ -3,7 +3,7 @@
 int - for storing nondecimal valued numbers(numbers without ".", e.g. 456).
 float32 - for storing decimal valued numbers(numbers with ".", e.g. 456.321).
 complex64 - for complex numbers(real and imaginery part are float32, e.g. 123.456 + 789.098i).
-string - for storing text like things(use double quotes("") to put a value in this one, e.g. "some text").
+string - for storing text like things(use double quotes("") or backtiks(``) to put a value in this one, e.g. "some text", `some other text with multiline`).
 bool - for storing one of the two values( value can be either "true" or "false").
 
 
