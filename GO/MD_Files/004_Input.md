@@ -58,6 +58,8 @@ fmt.Scan(&input)
 fmt.Printf("you have entered %q\n\n", input)
 ```
 
+### Output
+
 ```
 Please enter something: one
 you have entered "one"
