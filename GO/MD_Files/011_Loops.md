@@ -40,7 +40,7 @@ for {
 ### Syntax
 
 ```golang
- for condition {
+for condition {
         // some stuff to be executed till condition is satisfied
         // change in condition when required
 }
@@ -72,7 +72,7 @@ for x < 5 {
 ### Syntax
 
 ```golang
- for initializing_value; terminating_condition; changes_made_in__initialized_value {
+for initializing_value; terminating_condition; changes_made_in__initialized_value {
         // some stuff to be executed again and till changes_made would terminate the loop
 }
 ```
@@ -107,7 +107,7 @@ for index, element := range array_or_slice_maybe {
 
 ```golang
 arr := [5]int{123, 231, 1232, 12333, 2314}
-	for index, element := range arr { // if index is not required then use "_" instead of it
+for index, element := range arr { // if index is not required then use "_" instead of it
 		fmt.Printf("%5d: %5d\n", index, element)
 }
 ```
