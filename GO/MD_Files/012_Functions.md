@@ -129,7 +129,7 @@ Another statement
 Just before closing the function
 ```
 
-# Advanced function concets
+# Advanced function concepts
 
 - Function is just like a variable, we can pass it as parameter, return it from a function, called directly
 
@@ -216,7 +216,7 @@ someFunc()
 calling a function that returns a function and assigning it to a variable
 ```
 
-## Directly calling a functio that returns a function
+## Directly calling a function that returns a function
 
 ### Example
 
