@@ -1,5 +1,0 @@
-|----------------------- Logical Operators -----------------------|
-
-||              - OR Operator
-&&              - AND Operator
-!               - NOT Operator

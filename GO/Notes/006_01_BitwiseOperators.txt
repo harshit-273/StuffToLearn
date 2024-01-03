@@ -1,7 +1,0 @@
-|----------------------- Bitwise Operators -----------------------|
-
-"&"         - binary and operator, results only if both the bits are present.
-"|"         - binary or operator, results if even one bit is present.
-"^"         - binary xor operator, results if one bit is present and other is absent.
-"<<"        - binary left shift operator, multiplies the left operand with two to the power of the right operand.
-">>"        - bianry right shift operator, divides the left operand with two to the power of the right operand.
