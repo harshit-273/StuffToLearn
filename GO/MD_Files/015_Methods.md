@@ -47,6 +47,7 @@ if someBird.fly {
 }
 
 someBird.kind = "sparrow"
+someBird.canFly()
 if someBird.fly {
 	fmt.Println(someBird.kind, "can fly")
 } else {
