@@ -98,7 +98,7 @@ Links
 
 [google](google.com "google.com") | [other heading](#heading-1 "Top")
 ```
-[google](google.com "google.com") | [other heading](#heading-1 "Top")
+[google](https://www.google.com "google.com") | [other heading](#heading-1 "Top")
  
 
 
