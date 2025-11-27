@@ -24,8 +24,8 @@ Italics
 _Also Itlalics_
 ```
 *Italics*
-_Also Itlalics_
 
+_Also Itlalics_
 
 
 ```
@@ -38,6 +38,7 @@ Bold
 __Also Bold__
 ```
 **Bold**
+
 __Also Bold__
 
 
@@ -180,7 +181,7 @@ def function_name(firstParameter, secondParameter):
 	return output1, output2
 '''
 ```
-```
+```cpp
 cout << "Hello, World";
 ```
 

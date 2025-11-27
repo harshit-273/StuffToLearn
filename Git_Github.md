@@ -119,6 +119,26 @@ git stash clear
 git remote add URL
 ```
 
+### `git push`
+
+- This command is used to move your current changes to the Github repository.
+
+#### Example 
+
+```
+git push origin master
+```
+
+-> You can also set the upstream(where you want to push the changes).
+
+-> Here the __origin__ and __master__ are the names of the branch on the remote.
+
+```
+git push --set-upstream origin master
+```
+
+
+
 
 
 
