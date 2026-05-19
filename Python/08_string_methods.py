@@ -16,7 +16,7 @@ print(st.replace(" ", ""))
 """
 Output:
 8
-4
+0
 4
 Harsh it
 HARSH IT
