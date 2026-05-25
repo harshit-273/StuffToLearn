@@ -28,6 +28,18 @@ print(some_list)
 other_list.sort() # sorting a list
 print(other_list)
 
+# 2D list
+
+list_1 = [0, 1, 2, 3, 4]
+list_2 = ["zero", "one", "two", "three"]
+list_3 = [0.0, 1.0, 2.0]
+
+lists = [list_1, list_2] # list of lists
+print(lists)
+lists.append(list_3)
+print(lists)
+print(lists[1][2]) # accessing specific element of the list
+
 """
 Output:
 []
@@ -45,4 +57,8 @@ True
 ['apple', 45, False, 45, 'two', 3.0]
 [3.0, 'two', 45, False, 45, 'apple']
 [-25, 0, 2, 4, 5, 65]
+[[0, 1, 2, 3, 4], ['zero', 'one', 'two', 'three']]
+[[0, 1, 2, 3, 4], ['zero', 'one', 'two', 'three'], [0.0, 1.0, 2.0]]
+two
 """
+
