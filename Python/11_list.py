@@ -7,6 +7,8 @@ other_list = [4, 5, 65, -25, 0, 2]
 print(some_list) # printing the entire list
 print(some_list[1]) # printing one of the element of the list
 print(some_list[0][-1]) # treating the element as normal variable
+print(len(some_list)) # gives the length of the current list
+print("apple" in some_list) # gives a boolean if the object is present in the list
 # print(dir(some_list)) # getting all the things related to the type of list
 # print(help(some_list)) # detailed help on all the things related to the type of the list
 some_list.append(45) # adding an element at the end of the list
@@ -32,6 +34,8 @@ Output:
 ['apple', 45, False]
 45
 e
+3
+True
 ['apple', 45, False, 45]
 2
 ['apple', 45, False, 45, 1, 'two', 3.0]
