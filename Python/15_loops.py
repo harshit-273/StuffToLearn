@@ -4,8 +4,7 @@ exit = False
 
 while False == exit:
 	exit = True if "y" == input("Do you want to exit? Press \"y\" to exit:") else False
-
-print("Thank you, you care good to go.")
+print("Thank you, you are good to go.")
 
 """
 Output:
@@ -26,6 +25,30 @@ Output:
 1 2 3 4 5 6 7 8 9 10
 """
 
+# for loop for dictionary
+
+numbers_spellings = {
+	0: "zero",
+	1: "one",
+	2: "two",
+	3: "three",
+	4: "four",
+	5: "five"
+}
+
+for key, value in numbers_spellings.items():
+	print(f"{key}: {value}")
+
+"""
+Output:
+0: zero
+1: one
+2: two
+3: three
+4: four
+5: five
+"""
+
 # break
 
 while True:
@@ -33,6 +56,15 @@ while True:
 		break
 
 print("You have exitted the loop")
+
+"""
+Output:
+Do you want to exit this loop?(Press y to exit):n
+Do you want to exit this loop?(Press y to exit):no
+Do you want to exit this loop?(Press y to exit):yes
+Do you want to exit this loop?(Press y to exit):y
+You have exitted the loop
+"""
 
 # continue
 # printing multiples of 3 or 5 but not of 3 and 5.
