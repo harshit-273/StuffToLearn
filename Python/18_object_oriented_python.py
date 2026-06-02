@@ -1,4 +1,4 @@
-# Class, Constructor, Method, class varaibles
+# Class, Constructor, Method, class variables
 
 class Some_class: # defining a class
 	class_var = "shared variable across all the created objects"
