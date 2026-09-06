@@ -18,3 +18,11 @@ int main() {
 
 	return(0);
 }
+
+/*
+Output:
+int - 5
+float - 45.720001
+char - s
+bool - 1
+*/
