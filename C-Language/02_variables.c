@@ -9,7 +9,7 @@ int main() {
 
 	char c = 's'; // use single quotes for storing characters
 
-	bool is_variable = true;
+	bool is_variable = true; // other value is "false"
 
 	printf("int - %d\n", num);
 	printf("float - %f\n", decim);
